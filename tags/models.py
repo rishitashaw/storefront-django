@@ -3,8 +3,9 @@ from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.auth.models import User
 
-
+# tag models are here
 # Create your models here.
+
 
 class LikedItem(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
