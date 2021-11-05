@@ -89,7 +89,7 @@ DATABASES = {
         'NAME': 'storefront',
         'HOST': 'localhost',
         'USER': 'root',
-        'PASSWORD': 'skvsarkc3579'
+        'PASSWORD': 'MyPassword'
     }
 }
 
